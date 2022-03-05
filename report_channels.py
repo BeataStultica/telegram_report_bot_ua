@@ -26,7 +26,7 @@ async def main():
             try:
                 result = await client(functions.account.ReportPeerRequest(
                     peer=telegram_channel,
-                    reason=types.InputReportReasonSpam(),
+                    reason=types.InputReportReasonViolence(),
                     message=generate_report_message())
                 )
                 print(telegram_channel.strip(), result)
