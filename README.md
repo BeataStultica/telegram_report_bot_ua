@@ -28,7 +28,7 @@ docker run -it sprotyv2/telegram-report-bot-ua:1.1.0
 3. По черзі вводимо:
 - Телефон вашого аккаунта у форматі +380ххххххххх
 - Код автентифікації який прийде повідомленням у телеграм
-4. Бот автоматично напише репорти на канали, що записані у файлі `telegram_db.csv` з текстом, що генеруєтся у файлі `report_message_generator.py`
+4. Бот автоматично напише репорти на канали, що записані у файлі `telegram_db.csv` та у [гугл таблиці](https://docs.google.com/spreadsheets/d/1UXsdKXaSWkkdCYlJJQ3Elv6NgPEmQ-wbVBTvgLV90Ss/edit#gid=0) з текстом, що генеруєтся у файлі `report_message_generator.py`
 <br>**Правильно налаштована програма буде відображати такий результат:**
 <br><br>![image](https://user-images.githubusercontent.com/39994538/155859028-e83b5228-e711-4f21-bf4e-db9b1cfccb24.png)
 5. Щоб "звернути" Docker контейнер для работи на фоні можна використати наступну комбінацію клавіш: Ctrl+P followed by Ctrl+Q. Контейнер продовжить працювати, ви можете переглянути логи за допомогою команди:
