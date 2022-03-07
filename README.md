@@ -23,11 +23,9 @@ pip install -r requirements.txt
 <br>**ПЕРЕДАВАТИ КОМУСЬ `api_id` та `api_hash` НІ В ЯКОМУ РАЗІ НЕ МОЖНА!!! Вони дають можливіть контролювати вашу персональну сторінку у Телеграмі.**
 2. Запускаєте команду:
 ```
-docker run -it sprotyv2/telegram-report-bot-ua:1.0.0
+docker run API_ID=... -e API_HASH=... -it sprotyv2/telegram-report-bot-ua:1.0.0
 ```
 3. По черзі вводимо:
-- App api_id
-- App api_hash
 - Телефон вашого аккаунта у форматі +380ххххххххх
 - Код автентифікації який прийде повідомленням у телеграм
 4. Бот автоматично напише репорти на канали, що записані у файлі `telegram_db.csv` з текстом, що генеруєтся у файлі `report_message_generator.py`
