@@ -3,12 +3,12 @@
 Цей Телеграм Юзер-Бот використовується для автоматизації репорту пропагандистьских каналів.
 
 Є 3 способи запуску цього бота:
-1) через exe файл з [архіву](https://drive.google.com/file/d/1ksoDVdCsBCmGusCJ-WFBli3OupNHpB5F/view?usp=sharing)(тільки для користувачів Windows 10 x64)
+1) через exe файл з [архіву](https://github.com/BeataStultica/telegram_report_bot_ua/releases/download/v1.0.0/report_channels.rar)(тільки для користувачів Windows 10 x64)
 2) клонування репозиторію і запуск його локально без використання віртуалізації
 3) запуск з використанням Docker.
 Нижче про кожен з них детальніше.
 ## 1) Запуск через exe файл
-1. Спочатку потрібно завантажити архів з [гугл диску](https://drive.google.com/file/d/1ksoDVdCsBCmGusCJ-WFBli3OupNHpB5F/view?usp=sharing) та розпакувати його у довільну папку
+1. Спочатку потрібно [завантажити архів](https://github.com/BeataStultica/telegram_report_bot_ua/releases/download/v1.0.0/report_channels.rar) та розпакувати його у довільну папку
 2. Далі потрібно відкрити цю папку і знайти в ній файл report_channels.exe та запустити його
 3. Запущена програма запросить api_id та api_hash, щоб їх отримати переходимо за посиланням  https://my.telegram.org/, вводимо свій номер телефону та код авторизації
 <br>Переходимо у вкладку API development tools, пишемо довільний App title та Short name
